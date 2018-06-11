@@ -28,7 +28,8 @@ def line(arr)
       newArr.push(pushEle);
       i += 1;
     end
-  end
     puts "The line is currently: #{newArr.join(" ")}"
+  end
+    
   end
  
