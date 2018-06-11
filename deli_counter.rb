@@ -29,6 +29,6 @@ def line(arr)
       i += 1;
     end
   end
-    puts "The line is currently: #{newArr.join(", ")}"
+    puts "The line is currently: #{newArr}.join(", ")"
   end
  
