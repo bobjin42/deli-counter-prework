@@ -11,9 +11,8 @@ def now_serving(arr)
     break if arr.length == 0
   end
     puts "There is nobody waiting to be served!";
-  else
+
     served_name = arr.shift;
-  end
   puts "Currently serving #{served_name}."
 end
 
