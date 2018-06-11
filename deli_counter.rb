@@ -14,7 +14,6 @@ def now_serving(arr)
     served_name = arr.shift;
   end
   return "Currently serving #{served_name}."
-
 end
 
 def line(arr)
