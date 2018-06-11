@@ -24,7 +24,7 @@ def line(arr)
     i = 0;
     while i < arr.length
       ele = arr[i];
-      pushEle = "(i + 1). #{ele}";
+      pushEle = "#{(i + 1)}. #{ele}";
       newArr.push(pushEle);
       i += 1;
     end
